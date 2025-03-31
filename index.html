@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>  
+        <link rel="icon" type="image/png" href="#">
+        <meta charset="UTF-8">
+        <meta name="description" content="Formulaires avec JS">
+        <title>Formulaire pour animaux</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <div class="formulaire-animaux">
+                <div class="title">
+                    <h1>Gestion des animaux</h1>
+                </div>
+                <!----- FORMULAIRES  ----->
+                <div class="container">
+                    <form id="formulaire-animal">
+                        <p>ID</p>
+                        <input type="text" id="animaux">
+                        <!---- CHAMPS POUR REMPLIR --->
+                        <p>Saisissez un animal</p>
+                        <input type="text" id="animalNom" placeholder="Elephant, papillon...">
+                        <!---- BOUTON --->
+                        <button type="submit">Ajouter</button>
+                    </form>
+                    <!----- LISTE JS ----->
+                    <ul id="liste-animaux"></ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+        <script src="./script.js"></script> 
+    </body>
+</html>
