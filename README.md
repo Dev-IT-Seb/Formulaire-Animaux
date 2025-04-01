@@ -12,7 +12,8 @@
 
 ## Author
 
-👤 **Sebastien C.**
+👤 **Sebastien C.**  
+** Promo 2025 **
 
 * Github: [@Dev-IT-Seb](https://github.com/Dev-IT-Seb)
 
